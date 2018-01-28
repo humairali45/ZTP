@@ -1,0 +1,5 @@
+line,hostname,irb_ip,irb_subnet,mgmt_ip,mgmt_subnet,mac_address,serial_number,rack_location,domain_name,root_password,junos_image,userid,password,uplink_port1,uplink_port2,no_port
+1,testing,1.1.1.1,24,2.2.2.2,24,,1:123:233:22,,,asad,,premier,premier,ge-0/1/0,ge-0/2/0,24
+4,asdasdacascasc,1.1.1.1,24,2.2.2.2,24,,1:123:233:22,,,asad,,premier,premier,ge-0/1/0,ge-0/2/0,24
+5,noew,1.1.1.1,24,2.2.2.2,24,,1:123:233:22,,,asad,,premier,premier,ge-0/1/0,ge-0/2/0,24
+4,sdkvasdklsdlfk,1.1.1.1,24,2.2.2.2,24,,1:123:233:22,,,asad,,premier,premier,ge-0/1/0,ge-0/2/0,12

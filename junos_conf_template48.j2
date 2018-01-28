@@ -1,0 +1,143 @@
+system {
+    host-name {{ hostname }};
+    name-server 8.8.8.8;
+    domain-name {{ domain_name }};
+    root-authentication {
+         encrypted-password "{{ root_password }}"; ## Secret data
+    }
+    login {
+        user {{ userid }} {
+            authentication {
+                encrypted-password "{{ password }}"; ## Secret data
+            }
+            class super-user;
+        }
+    }
+ auto-snapshot;
+    services {
+        ssh;
+        telnet;
+        netconf {
+            ssh;
+        }
+    }
+    syslog {
+        user * {
+            any emergency;
+        }
+        file messages {
+            any notice;
+            authorization info;
+        }
+        file interactive-commands {
+            interactive-commands any;
+        }
+    }
+
+    processes {
+        dhcp-service {                  
+            traceoptions {
+                file dhcp_logfile size 10m;
+                level all;
+                flag all;
+            }
+        }
+    }
+}
+chassis {
+    redundancy {
+        graceful-switchover;
+    }
+}
+interfaces {
+  {{ uplink_port1 }} {
+    unit 0 {
+        family ethernet-switching {
+           interface-mode trunk;
+            vlan {
+                members all;
+            }
+            storm-control default;
+        }                               
+    } 
+  }
+
+
+  {{ uplink_port2 }} {
+    unit 0 {
+        family ethernet-switching {
+           interface-mode trunk;
+            vlan {
+                members all;
+            }
+            storm-control default;
+        }
+    }
+  }
+
+    irb {
+        description "{{ rack_location }}";
+        unit 0 {
+            family inet {
+                address {{ irb_ip }}/{{ irb_subnet }};
+            }
+        }
+    }
+
+    vme {                               
+        unit 0 {
+            family inet {
+                address {{ mgmt_ip }}/{{ mgmt_subnet }};
+            }
+        }
+    }
+}
+ event-options {
+            generate-event { ztp-autoi time-interval 60; }
+            policy ztp-autoi {
+              events ztp-autoi;
+              then {
+                raise-trap;
+                   }
+                
+              }
+            }
+         
+snmp {
+    community premier;
+    trap-group space {  
+     destination-port 10162;                 
+        targets {
+            172.30.1.53;
+        }
+    }
+    health-monitor;
+}
+forwarding-options {
+    storm-control-profiles default {
+        all;
+    }
+}
+protocols {
+    lldp {
+        interface all;
+    }
+    lldp-med {
+        interface all;
+    }
+    igmp-snooping {
+        vlan default;                   
+    }
+    rstp {
+        interface {{uplink_port1}};
+        interface {{uplink_port2}};
+    }
+}
+vlans {
+    default {
+        vlan-id 1;                      
+        l3-interface irb.0;
+    }
+}
+
+  
