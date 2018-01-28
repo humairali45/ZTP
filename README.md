@@ -18,7 +18,7 @@ apache if web interface is required
 	
 6.	FTP needed to be configured to allow anon user without password 
 	
-7.	two isc-dhcpd_template files are uploaded remove use it as per requirement rename the file to isc-dhcpd_template.js
+7.	two isc-dhcpd_template files are uploaded use it as per requirement rename the file to isc-dhcpd_template.js
 	
 8.	script is fetching following data from device_data2.csv file 
 
