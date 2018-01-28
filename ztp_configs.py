@@ -22,7 +22,8 @@ conf_path="/var/ftp/pub/"
 # File name of your csv file
 csv_filename="/tftpboot/device_data2.csv"
 
-# Command to restart your DHCP daemon - unremark the next line
+# Command toc copy blank dhcpd file and restart your DHCP daemon 
+shutil.copyfile('dhcpd.conf', '/etc/dhcp/dhcpd.conf') 
 dhcpd_restart_command="sudo /etc/init.d/isc-dhcp-server restart"
 
 
