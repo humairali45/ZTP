@@ -1,7 +1,7 @@
 # ZTP
 Juniper ZTP for EX based on on serial number in this ay MAC address are no longer required 
 
-based on https://github.com/spkrishnan/ztp project
+based on https://github.com/vloschiavo/ZTP project
 
 
 1.	required compunents 
