@@ -1,0 +1,1581 @@
+11/05/2020 09:34:40 PM INFO:FileName= /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2-1/device_data/Device-Detail-FG-v6.2.xlsx
+11/05/2020 09:34:40 PM INFO:ConfigTemplateFilePath= /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2-2/config_templete/final-template-61E-final.conf
+11/05/2020 09:34:40 PM INFO:ConfigOutputFolder= /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2-2/config_out
+11/05/2020 09:34:40 PM INFO:fmghost= 10.130.2.133
+11/05/2020 09:34:40 PM INFO:fmguser= ahumair@actsolution.net
+11/05/2020 09:34:40 PM 
+11/05/2020 09:34:40 PM 
+11/05/2020 09:34:40 PM INFO:Step-1: Generating Configuration File(s) ...
+11/05/2020 09:34:40 PM <br>
+<b> >> Step 1: Generating Configuration Files for /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2-1/device_data/Device-Detail-FG-v6.2.xlsx.... <br>
+
+11/05/2020 09:35:40 PM Initializing WebSocket
+11/05/2020 09:35:40 PM Validating WebSocket request
+11/05/2020 09:35:40 PM 127.0.0.1 - - [2020-11-05 21:35:40] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.009253
+11/05/2020 09:35:40 PM Closed WebSocket
+11/05/2020 09:35:40 PM Failed to write closing frame -> closing socket
+11/05/2020 09:35:40 PM Closed WebSocket
+11/05/2020 09:35:40 PM Initializing WebSocket
+11/05/2020 09:35:40 PM Validating WebSocket request
+11/05/2020 09:35:40 PM 127.0.0.1 - - [2020-11-05 21:35:40] "GET /eel.js HTTP/1.1" 200 6349 0.000586
+11/05/2020 09:35:40 PM Initializing WebSocket
+11/05/2020 09:35:40 PM Validating WebSocket request
+11/05/2020 09:35:40 PM 127.0.0.1 - - [2020-11-05 21:35:40] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.013762
+11/05/2020 09:35:40 PM Initializing WebSocket
+11/05/2020 09:35:40 PM Validating WebSocket request
+11/05/2020 09:35:40 PM 127.0.0.1 - - [2020-11-05 21:35:40] "GET /css/icons.css HTTP/1.1" 200 15290 0.013328
+11/05/2020 09:35:40 PM Initializing WebSocket
+11/05/2020 09:35:40 PM Validating WebSocket request
+11/05/2020 09:35:40 PM 127.0.0.1 - - [2020-11-05 21:35:40] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.024919
+11/05/2020 09:35:40 PM Initializing WebSocket
+11/05/2020 09:35:40 PM Validating WebSocket request
+11/05/2020 09:35:40 PM 127.0.0.1 - - [2020-11-05 21:35:40] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.024364
+11/05/2020 09:35:40 PM Initializing WebSocket
+11/05/2020 09:35:40 PM Validating WebSocket request
+11/05/2020 09:35:40 PM Attempting to upgrade connection
+11/05/2020 09:35:40 PM WebSocket request accepted, switching protocols
+11/05/2020 09:35:40 PM Initializing WebSocket
+11/05/2020 09:35:40 PM Validating WebSocket request
+11/05/2020 09:35:40 PM 127.0.0.1 - - [2020-11-05 21:35:40] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.001127
+11/05/2020 09:35:41 PM Initializing WebSocket
+11/05/2020 09:35:41 PM Validating WebSocket request
+11/05/2020 09:35:41 PM 127.0.0.1 - - [2020-11-05 21:35:41] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.000795
+11/05/2020 09:35:41 PM Closed WebSocket
+11/05/2020 09:35:41 PM Failed to write closing frame -> closing socket
+11/05/2020 09:35:41 PM Closed WebSocket
+11/05/2020 09:35:41 PM Initializing WebSocket
+11/05/2020 09:35:41 PM Validating WebSocket request
+11/05/2020 09:35:41 PM 127.0.0.1 - - [2020-11-05 21:35:41] "GET /eel.js HTTP/1.1" 200 6349 0.000625
+11/05/2020 09:35:41 PM Initializing WebSocket
+11/05/2020 09:35:41 PM Validating WebSocket request
+11/05/2020 09:35:41 PM 127.0.0.1 - - [2020-11-05 21:35:41] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.001265
+11/05/2020 09:35:41 PM Initializing WebSocket
+11/05/2020 09:35:41 PM Validating WebSocket request
+11/05/2020 09:35:41 PM 127.0.0.1 - - [2020-11-05 21:35:41] "GET /css/icons.css HTTP/1.1" 200 15290 0.000813
+11/05/2020 09:35:41 PM Initializing WebSocket
+11/05/2020 09:35:41 PM Validating WebSocket request
+11/05/2020 09:35:41 PM 127.0.0.1 - - [2020-11-05 21:35:41] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.000881
+11/05/2020 09:35:41 PM Initializing WebSocket
+11/05/2020 09:35:41 PM Validating WebSocket request
+11/05/2020 09:35:41 PM 127.0.0.1 - - [2020-11-05 21:35:41] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.000811
+11/05/2020 09:35:41 PM Initializing WebSocket
+11/05/2020 09:35:41 PM Validating WebSocket request
+11/05/2020 09:35:41 PM Attempting to upgrade connection
+11/05/2020 09:35:41 PM WebSocket request accepted, switching protocols
+11/05/2020 09:35:41 PM Initializing WebSocket
+11/05/2020 09:35:41 PM Validating WebSocket request
+11/05/2020 09:35:41 PM 127.0.0.1 - - [2020-11-05 21:35:41] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.000708
+11/05/2020 09:35:45 PM 
+11/05/2020 09:35:45 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+
+11/05/2020 09:35:45 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:36:05 PM Initializing WebSocket
+11/05/2020 09:36:05 PM Validating WebSocket request
+11/05/2020 09:36:05 PM 127.0.0.1 - - [2020-11-05 21:36:05] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.001749
+11/05/2020 09:36:05 PM Closed WebSocket
+11/05/2020 09:36:05 PM Failed to write closing frame -> closing socket
+11/05/2020 09:36:05 PM Closed WebSocket
+11/05/2020 09:36:05 PM Initializing WebSocket
+11/05/2020 09:36:05 PM Validating WebSocket request
+11/05/2020 09:36:05 PM 127.0.0.1 - - [2020-11-05 21:36:05] "GET /eel.js HTTP/1.1" 200 6349 0.000666
+11/05/2020 09:36:05 PM Initializing WebSocket
+11/05/2020 09:36:05 PM Validating WebSocket request
+11/05/2020 09:36:05 PM 127.0.0.1 - - [2020-11-05 21:36:05] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.001894
+11/05/2020 09:36:05 PM Initializing WebSocket
+11/05/2020 09:36:05 PM Validating WebSocket request
+11/05/2020 09:36:05 PM 127.0.0.1 - - [2020-11-05 21:36:05] "GET /css/icons.css HTTP/1.1" 200 15290 0.001235
+11/05/2020 09:36:05 PM Initializing WebSocket
+11/05/2020 09:36:05 PM Validating WebSocket request
+11/05/2020 09:36:05 PM 127.0.0.1 - - [2020-11-05 21:36:05] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.007652
+11/05/2020 09:36:05 PM Initializing WebSocket
+11/05/2020 09:36:05 PM Validating WebSocket request
+11/05/2020 09:36:05 PM 127.0.0.1 - - [2020-11-05 21:36:05] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.008720
+11/05/2020 09:36:06 PM Initializing WebSocket
+11/05/2020 09:36:06 PM Validating WebSocket request
+11/05/2020 09:36:06 PM Attempting to upgrade connection
+11/05/2020 09:36:06 PM WebSocket request accepted, switching protocols
+11/05/2020 09:36:06 PM Initializing WebSocket
+11/05/2020 09:36:06 PM Validating WebSocket request
+11/05/2020 09:36:06 PM 127.0.0.1 - - [2020-11-05 21:36:06] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.001398
+11/05/2020 09:36:07 PM 
+11/05/2020 09:36:07 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+
+11/05/2020 09:36:07 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:36:08 PM Initializing WebSocket
+11/05/2020 09:36:08 PM Validating WebSocket request
+11/05/2020 09:36:08 PM 127.0.0.1 - - [2020-11-05 21:36:08] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.000843
+11/05/2020 09:36:08 PM Closed WebSocket
+11/05/2020 09:36:08 PM Failed to write closing frame -> closing socket
+11/05/2020 09:36:08 PM Closed WebSocket
+11/05/2020 09:36:08 PM Initializing WebSocket
+11/05/2020 09:36:08 PM Validating WebSocket request
+11/05/2020 09:36:08 PM 127.0.0.1 - - [2020-11-05 21:36:08] "GET /eel.js HTTP/1.1" 200 6349 0.000472
+11/05/2020 09:36:08 PM Initializing WebSocket
+11/05/2020 09:36:08 PM Validating WebSocket request
+11/05/2020 09:36:08 PM 127.0.0.1 - - [2020-11-05 21:36:08] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.000825
+11/05/2020 09:36:08 PM Initializing WebSocket
+11/05/2020 09:36:08 PM Validating WebSocket request
+11/05/2020 09:36:08 PM 127.0.0.1 - - [2020-11-05 21:36:08] "GET /css/icons.css HTTP/1.1" 200 15290 0.000714
+11/05/2020 09:36:08 PM Initializing WebSocket
+11/05/2020 09:36:08 PM Validating WebSocket request
+11/05/2020 09:36:08 PM 127.0.0.1 - - [2020-11-05 21:36:08] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.000662
+11/05/2020 09:36:08 PM Initializing WebSocket
+11/05/2020 09:36:08 PM Validating WebSocket request
+11/05/2020 09:36:08 PM 127.0.0.1 - - [2020-11-05 21:36:08] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.000896
+11/05/2020 09:36:08 PM Initializing WebSocket
+11/05/2020 09:36:08 PM Validating WebSocket request
+11/05/2020 09:36:08 PM Attempting to upgrade connection
+11/05/2020 09:36:08 PM WebSocket request accepted, switching protocols
+11/05/2020 09:36:08 PM Initializing WebSocket
+11/05/2020 09:36:08 PM Validating WebSocket request
+11/05/2020 09:36:08 PM 127.0.0.1 - - [2020-11-05 21:36:08] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.000559
+11/05/2020 09:36:33 PM 
+11/05/2020 09:36:35 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:36:35 PM Starting new HTTPS connection (1): 10.130.2.133:443
+11/05/2020 09:36:36 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:36 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:36:37 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:37 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:38 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:38 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+
+11/05/2020 09:36:38 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:39 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:40 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:42 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:43 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:43 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+
+11/05/2020 09:36:43 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:44 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:46 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:47 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:48 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:50 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:50 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:51 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:51 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:36:52 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:52 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:54 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:54 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:55 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:55 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:56 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:57 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:57 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:58 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:59 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:36:59 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:02 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:03 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:03 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:04 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:04 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:05 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:06 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:06 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:07 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:07 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:08 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:08 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:09 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:09 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:10 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:10 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:11 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:12 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:12 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:13 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:14 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:15 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:17 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:18 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:19 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:37:19 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:37:19 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:37:22 PM Initializing WebSocket
+11/05/2020 09:37:22 PM Validating WebSocket request
+11/05/2020 09:37:22 PM 127.0.0.1 - - [2020-11-05 21:37:22] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.006780
+11/05/2020 09:37:22 PM Closed WebSocket
+11/05/2020 09:37:22 PM Failed to write closing frame -> closing socket
+11/05/2020 09:37:22 PM Closed WebSocket
+11/05/2020 09:37:22 PM Initializing WebSocket
+11/05/2020 09:37:22 PM Validating WebSocket request
+11/05/2020 09:37:22 PM 127.0.0.1 - - [2020-11-05 21:37:22] "GET /eel.js HTTP/1.1" 200 6349 0.000499
+11/05/2020 09:37:22 PM Initializing WebSocket
+11/05/2020 09:37:22 PM Validating WebSocket request
+11/05/2020 09:37:22 PM 127.0.0.1 - - [2020-11-05 21:37:22] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.023154
+11/05/2020 09:37:22 PM Initializing WebSocket
+11/05/2020 09:37:22 PM Validating WebSocket request
+11/05/2020 09:37:22 PM 127.0.0.1 - - [2020-11-05 21:37:22] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.055128
+11/05/2020 09:37:22 PM Initializing WebSocket
+11/05/2020 09:37:22 PM Validating WebSocket request
+11/05/2020 09:37:22 PM 127.0.0.1 - - [2020-11-05 21:37:22] "GET /css/icons.css HTTP/1.1" 200 15290 0.007082
+11/05/2020 09:37:22 PM Initializing WebSocket
+11/05/2020 09:37:22 PM Validating WebSocket request
+11/05/2020 09:37:22 PM 127.0.0.1 - - [2020-11-05 21:37:22] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.007563
+11/05/2020 09:37:22 PM Initializing WebSocket
+11/05/2020 09:37:22 PM Validating WebSocket request
+11/05/2020 09:37:22 PM Attempting to upgrade connection
+11/05/2020 09:37:22 PM WebSocket request accepted, switching protocols
+11/05/2020 09:37:23 PM Initializing WebSocket
+11/05/2020 09:37:23 PM Validating WebSocket request
+11/05/2020 09:37:23 PM 127.0.0.1 - - [2020-11-05 21:37:23] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.001323
+11/05/2020 09:37:45 PM 
+11/05/2020 09:37:47 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+
+11/05/2020 09:37:47 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:37:48 PM Initializing WebSocket
+11/05/2020 09:37:48 PM Validating WebSocket request
+11/05/2020 09:37:48 PM 127.0.0.1 - - [2020-11-05 21:37:48] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.001319
+11/05/2020 09:37:48 PM Closed WebSocket
+11/05/2020 09:37:48 PM Failed to write closing frame -> closing socket
+11/05/2020 09:37:48 PM Closed WebSocket
+11/05/2020 09:37:48 PM Initializing WebSocket
+11/05/2020 09:37:48 PM Validating WebSocket request
+11/05/2020 09:37:48 PM 127.0.0.1 - - [2020-11-05 21:37:48] "GET /eel.js HTTP/1.1" 200 6349 0.000759
+11/05/2020 09:37:48 PM Initializing WebSocket
+11/05/2020 09:37:48 PM Validating WebSocket request
+11/05/2020 09:37:48 PM 127.0.0.1 - - [2020-11-05 21:37:48] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.003359
+11/05/2020 09:37:48 PM Initializing WebSocket
+11/05/2020 09:37:48 PM Validating WebSocket request
+11/05/2020 09:37:48 PM 127.0.0.1 - - [2020-11-05 21:37:48] "GET /css/icons.css HTTP/1.1" 200 15290 0.000932
+11/05/2020 09:37:48 PM Initializing WebSocket
+11/05/2020 09:37:48 PM Validating WebSocket request
+11/05/2020 09:37:48 PM 127.0.0.1 - - [2020-11-05 21:37:48] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.001899
+11/05/2020 09:37:48 PM Initializing WebSocket
+11/05/2020 09:37:48 PM Validating WebSocket request
+11/05/2020 09:37:48 PM 127.0.0.1 - - [2020-11-05 21:37:48] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.001116
+11/05/2020 09:37:48 PM Initializing WebSocket
+11/05/2020 09:37:48 PM Validating WebSocket request
+11/05/2020 09:37:48 PM Attempting to upgrade connection
+11/05/2020 09:37:48 PM WebSocket request accepted, switching protocols
+11/05/2020 09:37:48 PM Initializing WebSocket
+11/05/2020 09:37:48 PM Validating WebSocket request
+11/05/2020 09:37:48 PM 127.0.0.1 - - [2020-11-05 21:37:48] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.008664
+11/05/2020 09:37:54 PM 
+11/05/2020 09:37:56 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+
+11/05/2020 09:37:56 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:38:15 PM Initializing WebSocket
+11/05/2020 09:38:15 PM Validating WebSocket request
+11/05/2020 09:38:15 PM 127.0.0.1 - - [2020-11-05 21:38:15] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.001661
+11/05/2020 09:38:15 PM Closed WebSocket
+11/05/2020 09:38:15 PM Failed to write closing frame -> closing socket
+11/05/2020 09:38:15 PM Closed WebSocket
+11/05/2020 09:38:15 PM Initializing WebSocket
+11/05/2020 09:38:15 PM Validating WebSocket request
+11/05/2020 09:38:15 PM 127.0.0.1 - - [2020-11-05 21:38:15] "GET /eel.js HTTP/1.1" 200 6349 0.000676
+11/05/2020 09:38:15 PM Initializing WebSocket
+11/05/2020 09:38:15 PM Validating WebSocket request
+11/05/2020 09:38:15 PM 127.0.0.1 - - [2020-11-05 21:38:15] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.002237
+11/05/2020 09:38:15 PM Initializing WebSocket
+11/05/2020 09:38:15 PM Validating WebSocket request
+11/05/2020 09:38:15 PM 127.0.0.1 - - [2020-11-05 21:38:15] "GET /css/icons.css HTTP/1.1" 200 15290 0.001148
+11/05/2020 09:38:15 PM Initializing WebSocket
+11/05/2020 09:38:15 PM Validating WebSocket request
+11/05/2020 09:38:15 PM 127.0.0.1 - - [2020-11-05 21:38:15] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.001705
+11/05/2020 09:38:15 PM Initializing WebSocket
+11/05/2020 09:38:15 PM Validating WebSocket request
+11/05/2020 09:38:15 PM 127.0.0.1 - - [2020-11-05 21:38:15] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.001626
+11/05/2020 09:38:15 PM Initializing WebSocket
+11/05/2020 09:38:15 PM Validating WebSocket request
+11/05/2020 09:38:15 PM Attempting to upgrade connection
+11/05/2020 09:38:15 PM WebSocket request accepted, switching protocols
+11/05/2020 09:38:15 PM Initializing WebSocket
+11/05/2020 09:38:15 PM Validating WebSocket request
+11/05/2020 09:38:15 PM 127.0.0.1 - - [2020-11-05 21:38:15] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.001311
+11/05/2020 09:38:20 PM 
+11/05/2020 09:38:21 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:38:21 PM Resetting dropped connection: 10.130.2.133
+11/05/2020 09:38:22 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:23 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:38:23 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:23 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:24 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:24 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+
+11/05/2020 09:38:25 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:25 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:27 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:27 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+
+11/05/2020 09:38:27 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:28 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:29 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:29 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:30 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:30 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:32 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:32 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:33 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:33 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:38:34 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:34 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:35 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:35 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:36 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:37 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:37 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:38 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:38 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:39 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:39 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:40 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:40 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:41 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:41 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:42 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:42 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:43 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:44 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:44 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:46 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:46 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:47 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:47 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:48 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:49 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:49 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:50 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:50 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:51 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:51 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:52 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:54 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:55 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:55 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:57 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:58 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:38:59 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:39:00 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:39:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:39:00 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:39:31 PM Initializing WebSocket
+11/05/2020 09:39:31 PM Validating WebSocket request
+11/05/2020 09:39:31 PM 127.0.0.1 - - [2020-11-05 21:39:31] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.003080
+11/05/2020 09:39:31 PM Closed WebSocket
+11/05/2020 09:39:31 PM Failed to write closing frame -> closing socket
+11/05/2020 09:39:31 PM Closed WebSocket
+11/05/2020 09:39:31 PM Initializing WebSocket
+11/05/2020 09:39:31 PM Validating WebSocket request
+11/05/2020 09:39:31 PM 127.0.0.1 - - [2020-11-05 21:39:31] "GET /eel.js HTTP/1.1" 200 6349 0.000742
+11/05/2020 09:39:31 PM Initializing WebSocket
+11/05/2020 09:39:31 PM Validating WebSocket request
+11/05/2020 09:39:31 PM 127.0.0.1 - - [2020-11-05 21:39:31] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.007733
+11/05/2020 09:39:31 PM Initializing WebSocket
+11/05/2020 09:39:31 PM Validating WebSocket request
+11/05/2020 09:39:31 PM 127.0.0.1 - - [2020-11-05 21:39:31] "GET /css/icons.css HTTP/1.1" 200 15290 0.001195
+11/05/2020 09:39:31 PM Initializing WebSocket
+11/05/2020 09:39:31 PM Validating WebSocket request
+11/05/2020 09:39:31 PM 127.0.0.1 - - [2020-11-05 21:39:31] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.007808
+11/05/2020 09:39:31 PM Initializing WebSocket
+11/05/2020 09:39:31 PM Validating WebSocket request
+11/05/2020 09:39:31 PM 127.0.0.1 - - [2020-11-05 21:39:31] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.007126
+11/05/2020 09:39:31 PM Initializing WebSocket
+11/05/2020 09:39:31 PM Validating WebSocket request
+11/05/2020 09:39:31 PM Attempting to upgrade connection
+11/05/2020 09:39:31 PM WebSocket request accepted, switching protocols
+11/05/2020 09:39:31 PM Initializing WebSocket
+11/05/2020 09:39:31 PM Validating WebSocket request
+11/05/2020 09:39:31 PM 127.0.0.1 - - [2020-11-05 21:39:31] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.001044
+11/05/2020 09:39:39 PM 
+11/05/2020 09:39:41 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+
+11/05/2020 09:39:41 PM Load Excel workbook failed-1 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:42:13 PM Initializing WebSocket
+11/05/2020 09:42:13 PM Validating WebSocket request
+11/05/2020 09:42:13 PM 127.0.0.1 - - [2020-11-05 21:42:13] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.004598
+11/05/2020 09:42:13 PM Closed WebSocket
+11/05/2020 09:42:13 PM Failed to write closing frame -> closing socket
+11/05/2020 09:42:13 PM Closed WebSocket
+11/05/2020 09:42:13 PM Initializing WebSocket
+11/05/2020 09:42:13 PM Validating WebSocket request
+11/05/2020 09:42:13 PM 127.0.0.1 - - [2020-11-05 21:42:13] "GET /eel.js HTTP/1.1" 200 6349 0.000504
+11/05/2020 09:42:13 PM Initializing WebSocket
+11/05/2020 09:42:13 PM Validating WebSocket request
+11/05/2020 09:42:13 PM 127.0.0.1 - - [2020-11-05 21:42:13] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.036413
+11/05/2020 09:42:13 PM Initializing WebSocket
+11/05/2020 09:42:13 PM Validating WebSocket request
+11/05/2020 09:42:13 PM 127.0.0.1 - - [2020-11-05 21:42:13] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.012187
+11/05/2020 09:42:13 PM Initializing WebSocket
+11/05/2020 09:42:13 PM Validating WebSocket request
+11/05/2020 09:42:13 PM 127.0.0.1 - - [2020-11-05 21:42:13] "GET /css/icons.css HTTP/1.1" 200 15290 0.000993
+11/05/2020 09:42:13 PM Initializing WebSocket
+11/05/2020 09:42:13 PM Validating WebSocket request
+11/05/2020 09:42:13 PM 127.0.0.1 - - [2020-11-05 21:42:13] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.006979
+11/05/2020 09:42:13 PM Initializing WebSocket
+11/05/2020 09:42:13 PM Validating WebSocket request
+11/05/2020 09:42:13 PM Attempting to upgrade connection
+11/05/2020 09:42:13 PM WebSocket request accepted, switching protocols
+11/05/2020 09:42:13 PM Initializing WebSocket
+11/05/2020 09:42:13 PM Validating WebSocket request
+11/05/2020 09:42:13 PM 127.0.0.1 - - [2020-11-05 21:42:13] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.039370
+11/05/2020 09:42:16 PM 
+11/05/2020 09:42:17 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:42:17 PM Resetting dropped connection: 10.130.2.133
+11/05/2020 09:42:19 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:19 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:42:19 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:20 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:21 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:21 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+
+11/05/2020 09:42:21 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:22 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:22 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+
+11/05/2020 09:42:22 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) failed <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+
+11/05/2020 09:42:22 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:22 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) failed <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:42:24 PM Initializing WebSocket
+11/05/2020 09:42:24 PM Validating WebSocket request
+11/05/2020 09:42:24 PM 127.0.0.1 - - [2020-11-05 21:42:24] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.002228
+11/05/2020 09:42:24 PM Closed WebSocket
+11/05/2020 09:42:24 PM Failed to write closing frame -> closing socket
+11/05/2020 09:42:24 PM Closed WebSocket
+11/05/2020 09:42:24 PM Initializing WebSocket
+11/05/2020 09:42:24 PM Validating WebSocket request
+11/05/2020 09:42:24 PM 127.0.0.1 - - [2020-11-05 21:42:24] "GET /eel.js HTTP/1.1" 200 6349 0.000700
+11/05/2020 09:42:24 PM Initializing WebSocket
+11/05/2020 09:42:24 PM Validating WebSocket request
+11/05/2020 09:42:24 PM 127.0.0.1 - - [2020-11-05 21:42:24] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.001540
+11/05/2020 09:42:24 PM Initializing WebSocket
+11/05/2020 09:42:24 PM Validating WebSocket request
+11/05/2020 09:42:24 PM 127.0.0.1 - - [2020-11-05 21:42:24] "GET /css/icons.css HTTP/1.1" 200 15290 0.001243
+11/05/2020 09:42:24 PM Initializing WebSocket
+11/05/2020 09:42:24 PM Validating WebSocket request
+11/05/2020 09:42:24 PM 127.0.0.1 - - [2020-11-05 21:42:24] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.000856
+11/05/2020 09:42:24 PM Initializing WebSocket
+11/05/2020 09:42:24 PM Validating WebSocket request
+11/05/2020 09:42:24 PM 127.0.0.1 - - [2020-11-05 21:42:24] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.001484
+11/05/2020 09:42:24 PM Initializing WebSocket
+11/05/2020 09:42:24 PM Validating WebSocket request
+11/05/2020 09:42:24 PM Attempting to upgrade connection
+11/05/2020 09:42:24 PM WebSocket request accepted, switching protocols
+11/05/2020 09:42:24 PM Initializing WebSocket
+11/05/2020 09:42:24 PM Validating WebSocket request
+11/05/2020 09:42:24 PM 127.0.0.1 - - [2020-11-05 21:42:24] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.000666
+11/05/2020 09:42:31 PM 
+11/05/2020 09:42:33 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:42:33 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:33 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:42:34 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:34 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:35 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:35 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+
+11/05/2020 09:42:35 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:36 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:37 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:38 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+
+11/05/2020 09:42:38 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:38 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:39 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:40 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:40 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:41 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:42 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:43 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:43 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:44 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:42:44 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:46 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:47 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:47 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:48 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:48 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:49 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:50 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:50 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:51 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:51 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:52 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:54 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:54 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:55 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:55 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:56 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:57 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:57 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:58 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:58 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:59 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:42:59 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:02 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:03 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:03 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:04 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:04 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:05 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:05 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:06 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:07 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:07 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:09 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:10 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:12 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:12 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan1" failed <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+The data is invalid for selected url<br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:43:12 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:43:13 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan1" failed <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+The data is invalid for selected url<br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:44:53 PM Initializing WebSocket
+11/05/2020 09:44:53 PM Validating WebSocket request
+11/05/2020 09:44:53 PM 127.0.0.1 - - [2020-11-05 21:44:53] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.008414
+11/05/2020 09:44:53 PM Closed WebSocket
+11/05/2020 09:44:53 PM Failed to write closing frame -> closing socket
+11/05/2020 09:44:53 PM Closed WebSocket
+11/05/2020 09:44:53 PM Initializing WebSocket
+11/05/2020 09:44:53 PM Validating WebSocket request
+11/05/2020 09:44:53 PM 127.0.0.1 - - [2020-11-05 21:44:53] "GET /eel.js HTTP/1.1" 200 6349 0.000564
+11/05/2020 09:44:53 PM Initializing WebSocket
+11/05/2020 09:44:53 PM Validating WebSocket request
+11/05/2020 09:44:53 PM 127.0.0.1 - - [2020-11-05 21:44:53] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.008148
+11/05/2020 09:44:53 PM Initializing WebSocket
+11/05/2020 09:44:53 PM Validating WebSocket request
+11/05/2020 09:44:53 PM 127.0.0.1 - - [2020-11-05 21:44:53] "GET /css/icons.css HTTP/1.1" 200 15290 0.001518
+11/05/2020 09:44:53 PM Initializing WebSocket
+11/05/2020 09:44:53 PM Validating WebSocket request
+11/05/2020 09:44:53 PM 127.0.0.1 - - [2020-11-05 21:44:53] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.020414
+11/05/2020 09:44:53 PM Initializing WebSocket
+11/05/2020 09:44:53 PM Validating WebSocket request
+11/05/2020 09:44:53 PM 127.0.0.1 - - [2020-11-05 21:44:53] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.034570
+11/05/2020 09:44:53 PM Initializing WebSocket
+11/05/2020 09:44:53 PM Validating WebSocket request
+11/05/2020 09:44:53 PM Attempting to upgrade connection
+11/05/2020 09:44:53 PM WebSocket request accepted, switching protocols
+11/05/2020 09:44:53 PM Initializing WebSocket
+11/05/2020 09:44:53 PM Validating WebSocket request
+11/05/2020 09:44:53 PM 127.0.0.1 - - [2020-11-05 21:44:53] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.006296
+11/05/2020 09:44:55 PM 
+11/05/2020 09:44:57 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:44:57 PM Resetting dropped connection: 10.130.2.133
+11/05/2020 09:44:58 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:44:58 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:44:59 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:44:59 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:00 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+
+11/05/2020 09:45:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:01 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+
+11/05/2020 09:45:01 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) failed <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+
+11/05/2020 09:45:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:02 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) failed <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:45:10 PM Initializing WebSocket
+11/05/2020 09:45:10 PM Validating WebSocket request
+11/05/2020 09:45:10 PM 127.0.0.1 - - [2020-11-05 21:45:10] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.001439
+11/05/2020 09:45:10 PM Closed WebSocket
+11/05/2020 09:45:10 PM Failed to write closing frame -> closing socket
+11/05/2020 09:45:10 PM Closed WebSocket
+11/05/2020 09:45:10 PM Initializing WebSocket
+11/05/2020 09:45:10 PM Validating WebSocket request
+11/05/2020 09:45:10 PM 127.0.0.1 - - [2020-11-05 21:45:10] "GET /eel.js HTTP/1.1" 200 6349 0.000627
+11/05/2020 09:45:10 PM Initializing WebSocket
+11/05/2020 09:45:10 PM Validating WebSocket request
+11/05/2020 09:45:10 PM 127.0.0.1 - - [2020-11-05 21:45:10] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.004008
+11/05/2020 09:45:10 PM Initializing WebSocket
+11/05/2020 09:45:10 PM Validating WebSocket request
+11/05/2020 09:45:10 PM 127.0.0.1 - - [2020-11-05 21:45:10] "GET /css/icons.css HTTP/1.1" 200 15290 0.001475
+11/05/2020 09:45:10 PM Initializing WebSocket
+11/05/2020 09:45:10 PM Validating WebSocket request
+11/05/2020 09:45:10 PM 127.0.0.1 - - [2020-11-05 21:45:10] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.020473
+11/05/2020 09:45:10 PM Initializing WebSocket
+11/05/2020 09:45:10 PM Validating WebSocket request
+11/05/2020 09:45:10 PM 127.0.0.1 - - [2020-11-05 21:45:10] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.011542
+11/05/2020 09:45:10 PM Initializing WebSocket
+11/05/2020 09:45:10 PM Validating WebSocket request
+11/05/2020 09:45:10 PM Attempting to upgrade connection
+11/05/2020 09:45:10 PM WebSocket request accepted, switching protocols
+11/05/2020 09:45:10 PM Initializing WebSocket
+11/05/2020 09:45:10 PM Validating WebSocket request
+11/05/2020 09:45:10 PM 127.0.0.1 - - [2020-11-05 21:45:10] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.003596
+11/05/2020 09:45:12 PM 
+11/05/2020 09:45:14 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:45:14 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:14 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:45:14 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:15 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:15 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:16 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+
+11/05/2020 09:45:16 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:17 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:18 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:18 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+
+11/05/2020 09:45:19 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:19 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:20 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:20 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:21 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:21 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:23 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:24 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:24 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:25 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:45:25 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:26 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:26 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:27 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:27 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:28 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:28 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:29 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:30 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:30 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:31 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:31 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:32 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:33 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:33 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:34 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:34 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:35 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:35 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:36 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:37 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:37 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:38 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:38 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:39 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:40 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:40 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:41 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:41 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:42 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:42 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:43 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:43 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:44 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:46 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:46 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:47 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:47 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:48 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:49 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:51 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:53 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan1" failed <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+The data is invalid for selected url<br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:45:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:45:53 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan1" failed <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+The data is invalid for selected url<br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:46:39 PM Initializing WebSocket
+11/05/2020 09:46:39 PM Validating WebSocket request
+11/05/2020 09:46:39 PM 127.0.0.1 - - [2020-11-05 21:46:39] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.019388
+11/05/2020 09:46:39 PM Closed WebSocket
+11/05/2020 09:46:39 PM Failed to write closing frame -> closing socket
+11/05/2020 09:46:39 PM Closed WebSocket
+11/05/2020 09:46:39 PM Initializing WebSocket
+11/05/2020 09:46:39 PM Validating WebSocket request
+11/05/2020 09:46:39 PM 127.0.0.1 - - [2020-11-05 21:46:39] "GET /eel.js HTTP/1.1" 200 6349 0.006868
+11/05/2020 09:46:39 PM Initializing WebSocket
+11/05/2020 09:46:39 PM Validating WebSocket request
+11/05/2020 09:46:39 PM 127.0.0.1 - - [2020-11-05 21:46:39] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.024015
+11/05/2020 09:46:39 PM Initializing WebSocket
+11/05/2020 09:46:39 PM Validating WebSocket request
+11/05/2020 09:46:39 PM 127.0.0.1 - - [2020-11-05 21:46:39] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.007314
+11/05/2020 09:46:39 PM Initializing WebSocket
+11/05/2020 09:46:39 PM Validating WebSocket request
+11/05/2020 09:46:39 PM 127.0.0.1 - - [2020-11-05 21:46:39] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.008242
+11/05/2020 09:46:39 PM Initializing WebSocket
+11/05/2020 09:46:39 PM Validating WebSocket request
+11/05/2020 09:46:39 PM 127.0.0.1 - - [2020-11-05 21:46:39] "GET /css/icons.css HTTP/1.1" 200 15290 0.001330
+11/05/2020 09:46:39 PM Initializing WebSocket
+11/05/2020 09:46:39 PM Validating WebSocket request
+11/05/2020 09:46:39 PM Attempting to upgrade connection
+11/05/2020 09:46:39 PM WebSocket request accepted, switching protocols
+11/05/2020 09:46:39 PM Initializing WebSocket
+11/05/2020 09:46:39 PM Validating WebSocket request
+11/05/2020 09:46:39 PM 127.0.0.1 - - [2020-11-05 21:46:39] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.006153
+11/05/2020 09:46:52 PM 
+11/05/2020 09:46:54 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:46:54 PM Resetting dropped connection: 10.130.2.133
+11/05/2020 09:46:55 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:46:55 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:46:56 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:46:56 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:46:57 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:46:57 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+
+11/05/2020 09:46:57 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:46:58 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:46:59 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:46:59 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+
+11/05/2020 09:47:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:02 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:02 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:04 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:05 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:05 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:06 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:47:06 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:06 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:07 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:08 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:08 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:09 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:09 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:10 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:11 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:11 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:12 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:12 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:13 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:13 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:14 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:15 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:15 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:16 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:16 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:17 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:18 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:18 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:19 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:19 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:20 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:21 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:21 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:22 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:23 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:23 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:24 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:24 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:25 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:25 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:26 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:27 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:27 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:28 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:28 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:29 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:29 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:31 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:33 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:34 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:34 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan1" succcessful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:47:34 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:47:35 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan1" succcessful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:50:34 PM Initializing WebSocket
+11/05/2020 09:50:34 PM Validating WebSocket request
+11/05/2020 09:50:34 PM 127.0.0.1 - - [2020-11-05 21:50:34] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.021542
+11/05/2020 09:50:35 PM Closed WebSocket
+11/05/2020 09:50:35 PM Failed to write closing frame -> closing socket
+11/05/2020 09:50:35 PM Closed WebSocket
+11/05/2020 09:50:35 PM Initializing WebSocket
+11/05/2020 09:50:35 PM Validating WebSocket request
+11/05/2020 09:50:35 PM 127.0.0.1 - - [2020-11-05 21:50:35] "GET /eel.js HTTP/1.1" 200 6349 0.000685
+11/05/2020 09:50:35 PM Initializing WebSocket
+11/05/2020 09:50:35 PM Validating WebSocket request
+11/05/2020 09:50:35 PM 127.0.0.1 - - [2020-11-05 21:50:35] "GET /css/icons.css HTTP/1.1" 200 15290 0.001232
+11/05/2020 09:50:35 PM Initializing WebSocket
+11/05/2020 09:50:35 PM Validating WebSocket request
+11/05/2020 09:50:35 PM 127.0.0.1 - - [2020-11-05 21:50:35] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.006305
+11/05/2020 09:50:35 PM Initializing WebSocket
+11/05/2020 09:50:35 PM Validating WebSocket request
+11/05/2020 09:50:35 PM 127.0.0.1 - - [2020-11-05 21:50:35] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.002053
+11/05/2020 09:50:35 PM Initializing WebSocket
+11/05/2020 09:50:35 PM Validating WebSocket request
+11/05/2020 09:50:35 PM 127.0.0.1 - - [2020-11-05 21:50:35] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.006683
+11/05/2020 09:50:35 PM Initializing WebSocket
+11/05/2020 09:50:35 PM Validating WebSocket request
+11/05/2020 09:50:35 PM Attempting to upgrade connection
+11/05/2020 09:50:35 PM WebSocket request accepted, switching protocols
+11/05/2020 09:50:35 PM Initializing WebSocket
+11/05/2020 09:50:35 PM Validating WebSocket request
+11/05/2020 09:50:35 PM 127.0.0.1 - - [2020-11-05 21:50:35] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.006271
+11/05/2020 09:50:36 PM 
+11/05/2020 09:50:38 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:50:38 PM Resetting dropped connection: 10.130.2.133
+11/05/2020 09:50:40 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:40 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:50:40 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:41 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:41 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:42 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+
+11/05/2020 09:50:42 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:42 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:44 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:44 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+
+11/05/2020 09:50:44 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:45 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:46 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:46 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:47 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:49 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:49 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:50 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:50 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:50:50 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:51 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:52 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:52 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:53 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:54 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:55 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:55 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:56 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:57 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:57 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:58 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:58 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:50:59 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:00 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:01 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:02 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:02 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:03 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:03 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:04 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:05 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:05 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:06 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:06 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:07 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:07 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:08 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:08 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:09 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:10 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:10 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:11 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:11 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:12 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:13 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:13 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:14 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:14 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:15 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:16 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:18 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:20 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:20 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan1" succcessful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan2" succcessful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/05/2020 09:51:20 PM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/05/2020 09:51:20 PM Load Excel workbook successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager has workspace mode disabled <span class="glyphicon glyphicon-info-sign" style="color:blue"></span><br>
+<br>
+ <b> >> Adding Device [ ARG01385 ] </b><br>
+Adding model device (ARG01385/FGT61ETK19014549) successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Device Group "Georgia_Eastern" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign CLI Template "Pre-ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Quick install device settings successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "NON_CHDN_LAN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VoIP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wlan_hw_switch" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "dmz" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "fortilink" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_gst" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "ARG_private" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan1" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "VPN" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wan2" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "wqt.root" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "modem" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for interface "internal5" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN1_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "MANAGER-WORKSTATION" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_VLAN1_DTT" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN100_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SICOM_OCB" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "VLAN150_SUBNET" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_DTT_DVR" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "NON_CHDN_ITECH_PC" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic map for address "SITESAGEAPF6C9D-IP" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan1" succcessful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Add dynamic SDWAN Map for interface "wan2" succcessful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign SDWAN template "Ali" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Assign Post CLI Template "ARG01385" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+Install policy package "JOELLAB-baseline" successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br>
+
+11/05/2020 09:52:20 PM Initializing WebSocket
+11/05/2020 09:52:20 PM Validating WebSocket request
+11/05/2020 09:52:20 PM 127.0.0.1 - - [2020-11-05 21:52:20] "GET /ztptool_adv.html HTTP/1.1" 200 9457 0.010709
+11/05/2020 09:52:20 PM Closed WebSocket
+11/05/2020 09:52:20 PM Failed to write closing frame -> closing socket
+11/05/2020 09:52:20 PM Closed WebSocket
+11/05/2020 09:52:20 PM Initializing WebSocket
+11/05/2020 09:52:20 PM Validating WebSocket request
+11/05/2020 09:52:20 PM 127.0.0.1 - - [2020-11-05 21:52:20] "GET /eel.js HTTP/1.1" 200 6349 0.006158
+11/05/2020 09:52:20 PM Initializing WebSocket
+11/05/2020 09:52:20 PM Validating WebSocket request
+11/05/2020 09:52:21 PM 127.0.0.1 - - [2020-11-05 21:52:21] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88355 0.013625
+11/05/2020 09:52:21 PM Initializing WebSocket
+11/05/2020 09:52:21 PM Validating WebSocket request
+11/05/2020 09:52:21 PM 127.0.0.1 - - [2020-11-05 21:52:21] "GET /css/icons.css HTTP/1.1" 200 15290 0.006394
+11/05/2020 09:52:21 PM Initializing WebSocket
+11/05/2020 09:52:21 PM Validating WebSocket request
+11/05/2020 09:52:21 PM 127.0.0.1 - - [2020-11-05 21:52:21] "GET /css/bootstrap.min.css HTTP/1.1" 200 155976 0.008317
+11/05/2020 09:52:21 PM Initializing WebSocket
+11/05/2020 09:52:21 PM Validating WebSocket request
+11/05/2020 09:52:21 PM 127.0.0.1 - - [2020-11-05 21:52:21] "GET /js/bootstrap.min.js HTTP/1.1" 200 58288 0.009385
+11/05/2020 09:52:21 PM Initializing WebSocket
+11/05/2020 09:52:21 PM Validating WebSocket request
+11/05/2020 09:52:21 PM Attempting to upgrade connection
+11/05/2020 09:52:21 PM WebSocket request accepted, switching protocols
+11/05/2020 09:52:21 PM Initializing WebSocket
+11/05/2020 09:52:21 PM Validating WebSocket request
+11/05/2020 09:52:21 PM 127.0.0.1 - - [2020-11-05 21:52:21] "GET /fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18226 0.000922

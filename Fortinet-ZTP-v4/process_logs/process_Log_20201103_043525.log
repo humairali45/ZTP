@@ -1,0 +1,211 @@
+11/03/2020 04:35:25 AM INFO:FileName= /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2/device_data/Device-Detail-FG-v6.2.xlsx
+11/03/2020 04:35:25 AM INFO:ConfigTemplateFilePath= /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2/config_templete/final-template-61E-final-allow-access.conf
+11/03/2020 04:35:25 AM INFO:ConfigOutputFolder= /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2/config_out
+11/03/2020 04:35:25 AM INFO:fmghost= 10.130.2.133
+11/03/2020 04:35:25 AM INFO:fmguser= ahumair@actsolution.net
+11/03/2020 04:35:25 AM 
+11/03/2020 04:35:25 AM 
+11/03/2020 04:35:25 AM INFO:Step-1: Generating Configuration File(s) ...
+11/03/2020 04:35:25 AM <br>
+<b> >> Step 1: Generating Configuration Files for /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2/device_data/Device-Detail-FG-v6.2.xlsx.... <br>
+
+11/03/2020 04:35:26 AM <br>
+<b> >> Step 1: Generating Configuration Files for /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2/device_data/Device-Detail-FG-v6.2.xlsx.... <br>
+<br>
+<b> >> 'Step 1' Complete! <br>
+
+11/03/2020 04:35:26 AM 
+11/03/2020 04:35:26 AM 
+11/03/2020 04:35:26 AM INFO:Step-2: Importing ADOM
+11/03/2020 04:35:26 AM <br>
+<b> >> Step 1: Generating Configuration Files for /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2/device_data/Device-Detail-FG-v6.2.xlsx.... <br>
+<br>
+<b> >> 'Step 1' Complete! <br>
+<br>
+<b> >> Step 2, Importing ADOM using Config File(s).... <br>
+
+11/03/2020 04:35:26 AM Import ADOM for Config File /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2/config_out/ARG01385.json
+11/03/2020 04:35:26 AM 
+11/03/2020 04:35:26 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/03/2020 04:35:26 AM Starting new HTTPS connection (1): 10.130.2.133:443
+11/03/2020 04:35:27 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:28 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/03/2020 04:35:28 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:28 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:28 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:29 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01385 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:29 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:30 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01385 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templateARG01385 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:30 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:30 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01385 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templateARG01385 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/config/adom/FortiGate-6_2/obj/firewall/address/metadata-server <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:30 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:31 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01385 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templateARG01385 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/config/adom/FortiGate-6_2/obj/firewall/address/metadata-server <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/pkg/adom/FortiGate-6_2default <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:31 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:31 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01385 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templateARG01385 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/config/adom/FortiGate-6_2/obj/firewall/address/metadata-server <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/pkg/adom/FortiGate-6_2default <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br><br><br><br>&nbsp;
+
+11/03/2020 04:35:31 AM Import ADOM for Config File /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2/config_out/ARG01744.json
+11/03/2020 04:35:31 AM 
+11/03/2020 04:35:31 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/03/2020 04:35:31 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:31 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/03/2020 04:35:32 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:32 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:32 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:32 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01744 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:33 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:33 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01744 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templateARG01744 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:33 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:33 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01744 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templateARG01744 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/config/adom/FortiGate-6_2/obj/firewall/address/metadata-server <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:34 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:34 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01744 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templateARG01744 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/config/adom/FortiGate-6_2/obj/firewall/address/metadata-server <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/pkg/adom/FortiGate-6_2default <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:34 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:34 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG01744 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templateARG01744 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/config/adom/FortiGate-6_2/obj/firewall/address/metadata-server <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+pm/pkg/adom/FortiGate-6_2default <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+<br>
+<b> >> Complete! <br>
+<br>
+ <a href="ztptool_adv.html">Return</a> <br><br><br><br>&nbsp;
+
+11/03/2020 04:35:34 AM Import ADOM for Config File /Users/humair/Nextcloud/ACTS/Config genrator script/Automation/Nre-restore/Fortinet-ZTP-v3-2/config_out/ARG05044.json
+11/03/2020 04:35:34 AM 
+11/03/2020 04:35:34 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/03/2020 04:35:35 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:35 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+
+11/03/2020 04:35:35 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:35 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:35 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:36 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG05044 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
+11/03/2020 04:35:36 AM https://10.130.2.133:443 "POST /jsonrpc HTTP/1.1" 200 None
+11/03/2020 04:35:36 AM Load JSON file successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+FortiManager login successful <span class="glyphicon glyphicon-ok" style="color:green"></span><br>
+/dvmdb/adom/FortiGate-6_2 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templatePre-ARG05044 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+/pm/config/adom/FortiGate-6_2/obj/cli/templateARG05044 <span class="glyphicon glyphicon-remove" style="color:red"></span><br>
+ >> Object already exists<br>
+
